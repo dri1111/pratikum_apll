@@ -49,7 +49,6 @@ bool validasiNomor(int nomor, int jumlah) {
     return (nomor >= 1 && nomor <= jumlah);
 }
 
-// PROSEDUR untuk menambah data zat
 void tambahZat(Zat data[], int &jumlah) {
     cout << "\n=== TAMBAH DATA ZAT ===\n";
     if (!cekArrayPenuh(jumlah)) {
